@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,  url(bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px 8%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 66px;
+    height: 28px;
+}
+.right .language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    backdrop-filter: blur(1px);
+}
+.email{
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 10px;
+
+
+}
+.email button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 63px;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+.email input{
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 395px;
+    height: 63px;
+    font-size: x-large;
+    backdrop-filter: blur(1px);
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+.content h2{
+    font-size: 25px;
+}
+.content h3{
+    font-size: 20px;
+}
